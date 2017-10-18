@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="jquery-3.2.1.js">
+</script>
+<script>
+$(document).ready(function(){
+	$("#button1").click(function(){
+		$("#button1").animate({
+			right: '250px',
+			opacity: '0.5',
+			height: '40px',
+			width: '80px'})
+		$("#div1").fadeIn("fast");});
+	$("#button2").click(function(){
+		$("#button2").animate({
+			right: '250px',
+			opacity: '0.5',
+			height: '40px',
+			width: '80px'})
+		$("#div2").fadeIn("slow");});
+	$("#button3").click(function(){
+		$("#button3").animate({
+			right: '250px',
+			opacity: '0.5',
+			height: '40px',
+			width: '80px'})
+		$("#div3").fadeIn("slow");});
+	$("#button4").click(function(){
+		$("#button4").animate({
+			right: '250px',
+			opacity: '0.5',
+			height: '40px',
+			width: '80px'})
+		$("#div4").fadeIn(3000); });
+});
+</script>
 <title>Romel's Resume</title>
 </head>
 <body style="background-image:url('education4.jpeg')">
-<h3>Romel's Resume</h3>
-<p>Hello world, my name is Romel!</P>
-<p>Home Country  : Belize</p>
-<p>Age           : 23</p>
-<p>Past Education:Associate's Degree in Physics and Math</p>
-<p>Department    : Electrical Engineering</p>
+<h3 style="color:DarkRed;">Romel's Resume</h3>
+<p style="color:SlateBlue;"><b>Hello world, my name is Romel!</b></p>
+
+<button id="button1" style="width:150px;height:150px;">Home Country</button>
+<div id="div1" style="width:150px;height:150px;display:none;background-color:red;"><p style="color:SlateBlue;"><b>Belize</b></p>
+</div><br>
+
+<button id="button2" style="width:150px;height:150px;">Age</button>
+<div id="div2" style="width:150px;height:150px;display:none;background-color:yellow;">
+<p style="color:SlateBlue;"><b>23</b></p>
+</div><br>
+
+<button id="button3" style="width:150px;height:150px">Education</button>
+<div id="div3" style="width:150px;height:150px;display:none;background-color:orange;">
+<p style="color:SlateBlue;"><b>Associate's Degree in Physics and Math</b></p>
+</div><br>
+
+<button id="button4" style="width:150px;height:150px;">Department</button>
+<div id="div4" style="width:150px;height:150px;display:none;background-color:red;">
+<p style="color:SlateBlue;"><b>Electrical Engineering</b></p>
+</div><br>
 <img src="romel_mountain.jpg" alt="Romel Rudon's Picture"
 			      style="width:304px;height:354px;">
 </body>
