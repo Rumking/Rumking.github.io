@@ -58,24 +58,24 @@ $(document).ready(function(){
 
 <li>
 <button id="button2" style="width:150px;height:150px;">Age</button>
+</li>
 <div id="div2" style="width:150px;height:150px;display:none;background-color:yellow;">
 <p style="color:SlateBlue;"><b>23</b></p>
 </div><br>
-</li>
 
 <li>
 <button id="button3" style="width:150px;height:150px">Education</button>
+</li>
 <div id="div3" style="width:150px;height:150px;display:none;background-color:orange;">
 <p style="color:SlateBlue;"><b>Associate's Degree in Physics and Math</b></p>
 </div><br>
-</li>
 
 <li>
 <button id="button4" style="width:150px;height:150px;">Department</button>
+</li>
 <div id="div4" style="width:150px;height:150px;display:none;background-color:red;">
 <p style="color:SlateBlue;"><b>Electrical Engineering</b></p>
 </div><br>
-</li>
 
 </ul>
 <img src="romel_mountain.jpg" alt="Romel Rudon's Picture"
